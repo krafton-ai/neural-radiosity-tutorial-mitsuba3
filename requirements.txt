@@ -1,0 +1,19 @@
+black==23.1.0
+commentjson==0.9.0
+einops==0.6.0
+flake518==1.2.3
+ipywidgets==8.0.4
+isort==5.12.0
+lightning==2.0.0
+matplotlib==3.7.1
+mitsuba==3.2.1 # 3.0.2 does not support some Python binding for ShapePtr https://github.com/mitsuba-renderer/mitsuba3/releases/tag/v3.2.0
+ninja==1.11.1
+omegaconf==2.3.0
+pip-chill==1.0.1
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.65.0
+wandb==0.14.0
+moviepy==1.0.3
+imageio==2.25.0
+opencv-python==4.7.0.72
