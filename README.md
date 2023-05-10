@@ -67,6 +67,9 @@ export PATH=/usr/local/cuda-11.7/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64
 ```
 
+# LICENSE
+The code is released under the Apache-2.0 License. See `LICENSE` for full terms.
+
 ## Update CMake
 - Get the [CMake binary](https://cmake.org/download/) for Linux such as `cmake-3.26.0-rc6-linux-x86_64.sh`.
 - Install the binary by hitting `sh cmake-3.26.0-rc6-linux-x86_64.sh`.
