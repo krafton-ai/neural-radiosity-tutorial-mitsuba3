@@ -15,14 +15,16 @@ Test environment
 ```bash
 git clone https://github.com/krafton-ai/neural-radiosity-tutorial-mitsuba3.git
 python3 -m pip install --upgrade pip
-pip install matplotlib==3.7.1 mitsuba==3.2.1 ninja==1.11.1 torch==1.13.1 torchvision==0.14.1 tqdm==4.65.0 imageio==2.25.0 opencv-python==4.7.0.72
+pip install -r requirements.txt
 ```
 
 To install Tiny-CUDA-NN, check the [official documentation](https://github.com/NVlabs/tiny-cuda-nn#pytorch-extension).
 In short, 
 ```bash
 # but first, you may need to update CUDA toolkit and CMake as the following sections
-apt-get install build-essential git python3-dev python3-pip libopenexr-dev libxi-dev libglfw3-dev libglew-dev libomp-dev libxinerama-dev libxcursor-dev ffmpeg
+apt-get install build-essential git python3-dev python3-pip libopenexr-dev \ 
+    libxi-dev libglfw3-dev libglew-dev libomp-dev libxinerama-dev libxcursor-dev \ 
+    ffmpeg
 pip install "git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch"
 ```
 
