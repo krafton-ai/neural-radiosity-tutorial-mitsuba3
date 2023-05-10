@@ -1,3 +1,7 @@
+# Implementation Tutorial for Neural Radiosity [Hadadan et al. 2021]
+
+See the python notebook [neural_radiosity.ipynb](https://github.com/krafton-ai/neural-radiosity-tutorial-mitsuba3/blob/main/neural_radiosity.ipynb).
+
 # (Almost) Everything about installing dependencies
 ## Installation
 Test environment
