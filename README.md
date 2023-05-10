@@ -9,7 +9,7 @@ Test environment
 - CMake >= 3.21
 
 ```bash
-git clone https://{}/neural-radiosity-repr.git
+git clone https://github.com/krafton-ai/neural-radiosity-tutorial-mitsuba3.git
 python3 -m pip install --upgrade pip
 pip install matplotlib==3.7.1 mitsuba==3.2.1 ninja==1.11.1 torch==1.13.1 torchvision==0.14.1 tqdm==4.65.0 imageio==2.25.0 opencv-python==4.7.0.72
 ```
